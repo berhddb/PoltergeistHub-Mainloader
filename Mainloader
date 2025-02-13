@@ -1,0 +1,5 @@
+local v1 = game.GameId;
+-- Blox Fruits
+if (v1 == 2753915549) then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/berhddb/PoltergeistHub/refs/heads/main/bloxfruits", true))()
+end
