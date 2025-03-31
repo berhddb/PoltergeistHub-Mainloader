@@ -1,14 +1,14 @@
-local game = game.GameId;
+local gameid = game.GameId;
 -- Blox Fruits
-if (game == 2753915549) then
+if (gameid == 2753915549) then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/berhddb/PoltergeistHub/refs/heads/main/bloxfruits?token=GHSAT0AAAAAAC63RFAQ44QG4Z54ITZ3ZFIAZ5OKXRA", true))()
 end
 -- DW (Dandy's World)
-if (game == 5569032992) then
+if (gameid == 5569032992) then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/jaonoobao/Poltergeist-Hub-DW-loader/refs/heads/main/README.md", true))()
 end
 
 -- Kick se não for compativel
-if (game == 5569032992) or (game == 2753915549) then
+if (gameid ~= 5569032992) or (gameid ~= 2753915549) then
 game.Players.LocalPlayer:Kick('Game not supported')
 end
