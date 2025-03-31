@@ -5,7 +5,7 @@ if (game == 2753915549) then
 end
 -- DW (Dandy's World)
 if (game == 5569032992) then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/jaonoobao/Poltergeist-Hub-DW-loader/refs/heads/main/README.md"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/jaonoobao/Poltergeist-Hub-DW-loader/refs/heads/main/README.md", true))()
 end
 
 -- Kick se não for compativel
